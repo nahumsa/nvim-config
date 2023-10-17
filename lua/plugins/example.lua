@@ -186,6 +186,7 @@ return {
         "shfmt",
         "rust-analyzer",
         "pyright",
+        "debugpy",
         "ruff",
         "mypy",
         "black",
