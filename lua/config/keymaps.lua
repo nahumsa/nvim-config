@@ -1,4 +1,4 @@
-local keymap = vim.keymap.map
+local keymap = vim.keymap.set
 
 keymap("n", "<C-d>", "<C-d>zz", { desc = "jump page down centered", remap = true })
 keymap("n", "<C-u>", "<C-u>zz", { desc = "jump page up centered", remap = true })
