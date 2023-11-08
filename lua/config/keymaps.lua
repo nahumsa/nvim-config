@@ -11,3 +11,18 @@ keymap(
   [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]],
   { desc = "replace word", remap = true }
 )
+
+-- neogen
+keymap(
+  "n",
+  "<Leader>nc",
+  ":lua require('neogen').generate({ type = 'class' })<CR>",
+  { desc = "New Class documentation", noremap = true, silent = true }
+)
+
+keymap(
+  "n",
+  "<Leader>nf",
+  ":lua require('neogen').generate({ type = 'func' })<CR>",
+  { desc = "New Class documentation", noremap = true, silent = true }
+)
